@@ -1,0 +1,27 @@
+{
+  "TREND": {
+    "bull": 0.65,
+    "bear": 0.65,
+    "description": "Normal trending market - base thresholds"
+  },
+  "CHOP": {
+    "bull": 0.75,
+    "bear": 0.75,
+    "description": "Choppy sideways market - higher thresholds to reduce noise"
+  },
+  "HIGH_VOL_TREND": {
+    "bull": 0.62,
+    "bear": 0.62,
+    "description": "High volatility trending - slightly lower to catch moves"
+  },
+  "HIGH_VOL_CHOP": {
+    "bull": 0.78,
+    "bear": 0.78,
+    "description": "High volatility chop - highest thresholds, very conservative"
+  },
+  "UNKNOWN": {
+    "bull": 0.7,
+    "bear": 0.7,
+    "description": "Unknown/uncertain regime - moderately conservative"
+  }
+}
